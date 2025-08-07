@@ -1,0 +1,4 @@
+! DNS-Rewrite für alle Subdomains von nas.lucaspoo.me auf lokale IP
+
+||nas.lucaspoo.me^$dnsrewrite=NOERROR;A;192.168.2.137
+||*.nas.lucaspoo.me^$dnsrewrite=NOERROR;A;192.168.2.137
