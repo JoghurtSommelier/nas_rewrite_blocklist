@@ -4,6 +4,5 @@
 ||*.nas.lucaspoo.me^$dnsrewrite=NOERROR;A;192.168.2.137
 
 ! DNS-Rewrite für alle Subdomains von lab.lucaspoo.me auf lokale IP
-||lab.lucaspoo.me^$dnsrewrite=NOERROR;A;192.168.2.2
-||*.lab.lucaspoo.me^$dnsrewrite=NOERROR;A;192.168.2.2
-
+||lab.lucaspoo.me^$dnsrewrite=NOERROR;A;192.168.2.228
+||*.lab.lucaspoo.me^$dnsrewrite=NOERROR;A;192.168.2.228
